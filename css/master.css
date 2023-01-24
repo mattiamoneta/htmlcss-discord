@@ -96,6 +96,7 @@
 
 .text-dark{color: #23272a;}
 .text-light{color: white;}
+.text-blue{color: #7289da;}
 
 /* GLOBAL ROW AND COLUMNS */
 
@@ -291,5 +292,23 @@ footer{
 .footer-bottom .row{
     border-top: 1px solid #9a9a9a;
     justify-content: space-between;
+}
+
+.footer-nav-title{
+    font-weight: bold;
+}
+
+nav.footer-nav ul{
+    list-style-type: none;
+}
+
+nav.footer-nav ul li{
+    padding: 8px 0px;
+}
+
+nav.footer-nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: .9em;
 }
 
