@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+/* COLORS */
+
+.bg-grey{background-color: #f6f6f6;}
+.bg-dark{background-color: #23272a;}
+
+.text-dark{color: #23272a;}
+.text-light{color: white;}
+.text-blue{color: #7289da;}
+
+/* GLOBAL ROW AND COLUMNS */
+
+.v-spacing{
+    padding: 90px 0px;
+}
+
+.block-row{ /* Display Block Row */
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{ /* Display Flex Row */
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+}
+
+
+.col-1x{
+    width: calc(100% / 6);
+}
+
+.col-2x{
+    width: calc(100% / 6 * 2);
+}
+
+.col-4x{
+    width: calc(100% / 6 * 4);
+}
+
+.col-fix{
+    margin-top: 30px;
+}
+
+/* MARGIN & PADDINGS */
+
+.margin-dx-1{margin-right: 5px;}
+.margin-dx-2{margin-right: 10px;}
+.margin-dx-3{margin-right: 15px;}
+
+.margin-sx-1{margin-right: 5px;}
+.margin-sx-2{margin-right: 10px;}
+.margin-sx-3{margin-right: 15px;}
+
+.margin-y-1{margin: 5px auto;}
+.margin-y-2{margin: 10px auto;}
+.margin-y-3{margin: 15px auto;}
+
+.padding-dx-1{padding-right: 5px;}
+.padding-dx-2{padding-right: 10px;}
+.padding-dx-3{padding-right: 15px;}
+.padding-dx-max{padding-right: 100px;}
+
+/* CONTROLS */
+
+.btn{
+    padding: 8px 15px;
+    border-radius: 22px;
+    text-decoration: none;
+    font-size: .8em;
+    transition: 1s ease;
+}
+
+.btn.btn-lg{
+    font-size: 1.1em;
+    padding: 10px 25px;
+}
+
+.btn.btn-light{
+    background-color: white;
+    color: #23272a;
+}
+
+
+.btn.btn-dark{
+    background-color: #23272a;
+    color: white;
+}
+
+.btn.btn-blue{
+    background-color: #7289da;
+    color: white;
+}
+
+/* TYPOGRAPHY */
+
+p{
+    font-size: 1.1em;
+}
+
+.heading-1{
+    margin-bottom: 25px;
+    font-size: 2.5em;
+}
+
+.heading-2{
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+.text-right{text-align: right;}
+.text-left{text-align: left;}
+.text-center{text-align: center;}
+
+
+
+/* ICONS */
+
+.icn-down-arrow::before{
+    content: '\25BC';
+    margin-right: 5px;
+    font-size: .8em
+    ;
+}
+
+/* HEDAER */
+
+header{
+    background-color: #255ee9;
+}
+
+/* NAVBAR */
+
+.navbar{
+    padding: 20px 0px;
+}
+
+.navbar .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo, .navbar .login{
+    width: 20%;
+}
+
+.navbar .navbar-nav{
+    width: 60%;
+    text-align: center;
+}
+
+.navbar-nav ul{
+    list-style-type: none;
+}
+
+.navbar-nav ul li{
+    display: inline-block;
+}
+
+.navbar-nav ul li a{
+    text-decoration: none;
+    padding: 2px 10px;
+    margin: 0px 3px;
+    font-size: .9em;
+    color: white;
+}
+
+.login{
+    text-align: right;
+}
+
+/* JUMBOTRON */
+
+#hero-section{
+    background: url('../img/jumbo.png') no-repeat;
+    background-size: cover;
+}
+
+.jumbotron .row{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 500px;
+}
+
+.jumbotron .row .jumbotron-container{
+    width: 60%;
+}
+
+.jumbotron-cta{
+    padding: 30px 0px;
+}
+
+/* MAIN */
+
+#starred-bg{
+    width: 65%;
+    padding-top: 40px;
+    margin: 10px auto;
+    background: url(../img/stars.svg) no-repeat top;
+    background-size: contain;
+
+}
+
+#starred-bg .heading-2{
+    margin-bottom: 50px;
+
+}
+
+
+/* FOOTER */
+
+footer{
+    padding: 60px 0px;
+}
+
+.footer-menu{
+    margin-bottom: 40px;
+}
+
+
+.footer-bottom .row{
+    border-top: 1px solid #7289da;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.footer-nav-title{
+    font-weight: bold;
+}
+
+nav.footer-nav ul{
+    list-style-type: none;
+}
+
+nav.footer-nav ul li{
+    padding: 8px 0px;
+}
+
+nav.footer-nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: .9em;
+}
+
+.lang-selection .lang-dropdown{
+    text-decoration: none;
+    color: white;
+    font-size: .8em;
+}
+
+.lang-selection .lang-dropdown::after{
+    content: '\25BC';
+}
+
+.flag{
+    height: 10px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+.footer-title{
+    font-size: 1.8em;
+}
