@@ -278,20 +278,21 @@ header{
 /* MAIN */
 
 
-
 /* FOOTER */
 
 footer{
-    padding: 30px 0px;
+    padding: 60px 0px;
 }
 
 .footer-menu{
     margin-bottom: 40px;
 }
 
+
 .footer-bottom .row{
-    border-top: 1px solid #9a9a9a;
+    border-top: 1px solid #7289da;
     justify-content: space-between;
+    padding: 20px 0px;
 }
 
 .footer-nav-title{
