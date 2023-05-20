@@ -11,7 +11,7 @@ THUMBNAIL GIF
 -->
 
 <p align="center">
-  <img src="https://github.com/mattiamoneta/htmlcss-discord/blob/main/thumbnail.png" alt="Discord Thumbnail"/>
+  <img src="https://github.com/mattiamoneta/htmlcss-discord/blob/main/thumbnail.gif" alt="Discord Thumbnail"/>
 </p>
 
 <!---
